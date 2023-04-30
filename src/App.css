@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #918e9b;
+}
+
+h2,
+p,
+a,
+h4 {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+h2 {
+  padding-bottom: 1.5rem;
+}
+
+a {
+  color: #918e9b;
+  padding: 1rem;
+}
+
+p {
+  font-size: 11px;
+}
+
+nav {
+  width: 550px;
+  height: 55px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 24px;
+  padding-right: 10px;
+}
+
+.frame {
+  width: 550px;
+  height: 705px;
+  background-color: white;
+}
+
+.itemOne {
+  margin: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  padding-bottom: 3rem;
+  border-bottom: 1px #918e9b solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  width: 470px;
+}
+
+.info {
+  margin: 1.5rem;
+}
+
+.card--image {
+  height: 170px;
+  width: 125px;
+  object-fit: cover;
+  border-radius: 7%;
+}
